@@ -1,0 +1,69 @@
+html,
+body {
+    background-color: #EEE3CB;
+    width: 100%;
+    height: 100%;
+}
+
+#username-wrap,
+#content-wrap {
+    margin-top: 10rem;
+}
+
+#content-wrap {
+    display: none;
+}
+
+.userInList {
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.logout {
+    text-decoration: none;
+    color: #65647C;
+}
+
+.logout:hover {
+    color: #4e4e5f;
+}
+
+.msg-box {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+/** BOOTSTRAP CLASSES **/
+
+.nav {
+    background-color: #9F8772;
+}
+
+.nav a {
+    font-weight: 600;
+}
+
+.card {
+    background-color: #D7C0AE;
+    border-style: none;
+}
+
+.form-control {
+    background-color: #e6e2d9;
+    margin-right: 5px;
+}
+
+.btn-primary {
+    background-color: #8B7E74;
+    border-style: none;
+}
+
+.btn-primary:hover {
+    background-color: #625851;
+}
